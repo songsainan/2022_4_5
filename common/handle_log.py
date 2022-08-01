@@ -2,6 +2,7 @@ import logging
 import os
 from common.handle_path import LOG_DIR
 from common.handle_conf import confger
+from logging import handlers
 
 
 # 定义方法，创建一个日志收集器
@@ -18,6 +19,7 @@ def create_logger(logger_name='my_logger', logger_level='INFO', logfile_name='te
     sh = logging.StreamHandler()
     # 2.输出渠道为日志文件，需要传入日志文件名，和文件编码格式
     fh = logging.FileHandler(logfile_name, encoding='utf-8')
+    # fh = handlers.TimedRotatingFileHandler(filename=logfile_name, when='D', backupCount=3, encoding='utf-8')
 
     # 四、设置日志输出渠道的输出等级
     sh.setLevel(sh_level)
