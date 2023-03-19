@@ -49,7 +49,7 @@ class TestAdd(unittest.TestCase):
         # 替换数据
         body = eval(replace_data(TestAdd, item['data']))
         # 请求前查询数据库
-        sql = 'select count(*) from futureloan.loan where member_id={}'.format(self.member_id)
+        sql = 'select count(*) from future.loan where member_id={}'.format(self.member_id)
         start_num = self.db.find_one(sql)[0]
         print('请求前的项目数是：', start_num)
 

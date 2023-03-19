@@ -18,7 +18,7 @@ runner.send_email(host='smtp.qq.com',
                   port=465,
                   user='27000599@qq.com',
                   password='tggskgisoincbgga',
-                  to_addrs=['27000599@qq.com', '513184784@qq.com'],
+                  to_addrs=['27000599@qq.com',],
                   is_file=True)
 
 # 扩展：自定义邮件标题、内容

@@ -45,5 +45,5 @@ class HandleExcel:
 
 
 if __name__ == '__main__':
-    excel = HandleExcel(r'C:\Users\27000\PycharmProjects\2022_4_5\cases\case.xlsx', 'Sheet1')
+    excel = HandleExcel(r'C:\Users\27000\PycharmProjects\2022_4_5\cases\case.xlsx', 'recharge')
     print(excel.read_excel())

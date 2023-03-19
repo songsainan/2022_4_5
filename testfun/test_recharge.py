@@ -54,7 +54,7 @@ class TestRecharge(unittest.TestCase):
         method = item['method'].lower()
 
         # 发送充值请求前，查询数据库该账号余额
-        sql = 'select leave_amount from futureloan.member where mobile_phone = {}'.format(
+        sql = 'select leave_amount from future.member where mobile_phone = {}'.format(
             confger.getint('evn', 'mobile_phone'))
         start_amount = self.db.find_one(sql)[0]
         print('充值前金额是：', start_amount)

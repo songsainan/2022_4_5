@@ -3390,3 +3390,945 @@ AssertionError: '用户昵称长度超过10位' != '无效的手机格式'
 2022-05-25 09:00:04,517  - INFO - 用例 【手机号已被注册】 执行成功
 2022-05-25 09:00:04,586  - INFO - 用例 【手机号为空】 执行成功
 2022-05-25 09:00:04,659  - INFO - 用例 【密码为空】 执行成功
+2022-06-01 10:23:27,080  - INFO - 用例【添加成功】执行成功
+2022-06-01 10:23:27,183  - INFO - 用例【登录成功】执行成功
+2022-06-01 10:23:27,275  - INFO - 用例【密码为空】执行成功
+2022-06-01 10:23:27,388  - INFO - 用例【账号为空】执行成功
+2022-06-01 10:23:27,596  - INFO - 用例【密码账号都为空】执行成功
+2022-06-01 10:23:27,798  - INFO - 用例【密码错误】执行成功
+2022-06-01 10:23:28,001  - INFO - 用例【账号错误】执行成功
+2022-06-01 10:23:28,513  - INFO - 用例【充值金额小于等于0】执行成功
+2022-06-01 10:23:28,825  - ERROR - 用例【充值金额等于0】执行失败
+2022-06-01 10:23:28,825  - ERROR - 2 != 0
+Traceback (most recent call last):
+  File "C:\Users\27000\PycharmProjects\2022_4_5\testfun\test_recharge.py", line 75, in test_recharge
+    self.assertEqual(expected['code'], res['code'])
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 845, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2022-06-01 10:23:29,096  - INFO - 用例【充值金额大于50W】执行成功
+2022-06-01 10:23:29,358  - INFO - 用例【充值金额等于50W】执行成功
+2022-06-01 10:23:29,628  - INFO - 用例【充值金额大于0小于50W】执行成功
+2022-06-01 10:23:29,743  - INFO - 用例 【注册成功】 执行成功
+2022-06-01 10:23:29,809  - INFO - 用例 【密码少于8位】 执行成功
+2022-06-01 10:23:29,877  - INFO - 用例 【密码大于16位】 执行成功
+2022-06-01 10:23:29,957  - ERROR - 用例 【昵称大于10位】 执行失败
+2022-06-01 10:23:29,958  - ERROR - '用户昵称长度超过10位' != '无效的手机格式'
+- 用户昵称长度超过10位
++ 无效的手机格式
+Traceback (most recent call last):
+  File "C:\Users\27000\PycharmProjects\2022_4_5\testfun\test_register.py", line 47, in test_register
+    self.assertEqual(expected['msg'], res['msg'])
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 1233, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 693, in fail
+    raise self.failureException(msg)
+AssertionError: '用户昵称长度超过10位' != '无效的手机格式'
+- 用户昵称长度超过10位
++ 无效的手机格式
+
+2022-06-01 10:23:30,039  - INFO - 用例 【手机号小于11位】 执行成功
+2022-06-01 10:23:30,107  - INFO - 用例 【手机号大于11位】 执行成功
+2022-06-01 10:23:30,182  - INFO - 用例 【手机号格式不正确】 执行成功
+2022-06-01 10:23:30,284  - INFO - 用例 【手机号已被注册】 执行成功
+2022-06-01 10:23:30,364  - INFO - 用例 【手机号为空】 执行成功
+2022-06-01 10:23:30,430  - INFO - 用例 【密码为空】 执行成功
+2022-06-27 23:18:43,107  - INFO - 用例【充值金额小于等于0】执行成功
+2022-06-27 23:18:43,728  - ERROR - 用例【充值金额等于0】执行失败
+2022-06-27 23:18:43,728  - ERROR - 2 != 0
+Traceback (most recent call last):
+  File "C:\Users\27000\PycharmProjects\2022_4_5\testfun\test_recharge.py", line 75, in test_recharge
+    self.assertEqual(expected['code'], res['code'])
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2021.1.3\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 845, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2022-06-27 23:18:44,234  - INFO - 用例【充值金额大于50W】执行成功
+2022-06-27 23:18:44,745  - INFO - 用例【充值金额等于50W】执行成功
+2022-06-27 23:18:45,257  - INFO - 用例【充值金额大于0小于50W】执行成功
+2022-06-27 23:19:05,841  - INFO - 用例【充值金额小于等于0】执行成功
+2022-06-27 23:19:06,455  - ERROR - 用例【充值金额等于0】执行失败
+2022-06-27 23:19:06,455  - ERROR - 2 != 0
+Traceback (most recent call last):
+  File "C:\Users\27000\PycharmProjects\2022_4_5\testfun\test_recharge.py", line 75, in test_recharge
+    self.assertEqual(expected['code'], res['code'])
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2021.1.3\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 845, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2022-06-27 23:19:06,967  - INFO - 用例【充值金额大于50W】执行成功
+2022-06-27 23:19:07,478  - INFO - 用例【充值金额等于50W】执行成功
+2022-06-27 23:19:07,887  - INFO - 用例【充值金额大于0小于50W】执行成功
+2022-06-27 23:20:28,886  - INFO - 用例【充值金额小于等于0】执行成功
+2022-06-27 23:20:29,195  - ERROR - 用例【充值金额等于0】执行失败
+2022-06-27 23:20:29,195  - ERROR - 2 != 0
+Traceback (most recent call last):
+  File "C:\Users\27000\PycharmProjects\2022_4_5\testfun\test_recharge.py", line 75, in test_recharge
+    self.assertEqual(expected['code'], res['code'])
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2021.1.3\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 845, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2022-06-27 23:20:29,499  - INFO - 用例【充值金额大于50W】执行成功
+2022-06-27 23:20:29,807  - ERROR - 用例【充值金额等于50W】执行失败
+2022-06-27 23:20:29,807  - ERROR - 0.0 != 500000
+Traceback (most recent call last):
+  File "C:\Users\27000\PycharmProjects\2022_4_5\testfun\test_recharge.py", line 79, in test_recharge
+    self.assertEqual(float(end_amount - start_amount), body['amount'])
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2021.1.3\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 845, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0.0 != 500000
+2022-06-27 23:20:30,115  - ERROR - 用例【充值金额大于0小于50W】执行失败
+2022-06-27 23:20:30,115  - ERROR - 0.0 != 50000
+Traceback (most recent call last):
+  File "C:\Users\27000\PycharmProjects\2022_4_5\testfun\test_recharge.py", line 79, in test_recharge
+    self.assertEqual(float(end_amount - start_amount), body['amount'])
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2021.1.3\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 845, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0.0 != 50000
+2022-06-27 23:23:12,111  - INFO - 用例【充值金额小于等于0】执行成功
+2022-06-27 23:23:12,423  - ERROR - 用例【充值金额等于0】执行失败
+2022-06-27 23:23:12,424  - ERROR - 2 != 0
+Traceback (most recent call last):
+  File "C:\Users\27000\PycharmProjects\2022_4_5\testfun\test_recharge.py", line 75, in test_recharge
+    self.assertEqual(expected['code'], res['code'])
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2021.1.3\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 845, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2022-06-27 23:23:12,726  - INFO - 用例【充值金额大于50W】执行成功
+2022-06-27 23:23:13,033  - ERROR - 用例【充值金额等于50W】执行失败
+2022-06-27 23:23:13,034  - ERROR - 0.0 != 500000
+Traceback (most recent call last):
+  File "C:\Users\27000\PycharmProjects\2022_4_5\testfun\test_recharge.py", line 79, in test_recharge
+    self.assertEqual(float(end_amount - start_amount), body['amount'])
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2021.1.3\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 845, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0.0 != 500000
+2022-06-27 23:23:13,493  - ERROR - 用例【充值金额大于0小于50W】执行失败
+2022-06-27 23:23:13,494  - ERROR - 0.0 != 50000
+Traceback (most recent call last):
+  File "C:\Users\27000\PycharmProjects\2022_4_5\testfun\test_recharge.py", line 79, in test_recharge
+    self.assertEqual(float(end_amount - start_amount), body['amount'])
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2021.1.3\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 845, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0.0 != 50000
+2022-06-27 23:25:16,424  - INFO - 用例【充值金额小于等于0】执行成功
+2022-06-27 23:25:16,938  - ERROR - 用例【充值金额等于0】执行失败
+2022-06-27 23:25:16,938  - ERROR - 2 != 0
+Traceback (most recent call last):
+  File "C:\Users\27000\PycharmProjects\2022_4_5\testfun\test_recharge.py", line 75, in test_recharge
+    self.assertEqual(expected['code'], res['code'])
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2021.1.3\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 845, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2022-06-27 23:25:17,447  - INFO - 用例【充值金额大于50W】执行成功
+2022-06-27 23:25:17,961  - INFO - 用例【充值金额等于50W】执行成功
+2022-06-27 23:25:18,472  - INFO - 用例【充值金额大于0小于50W】执行成功
+2022-09-12 21:03:13,769  - INFO - 用例 【注册成功】 执行成功
+2022-09-12 21:03:13,978  - INFO - 用例 【密码少于8位】 执行成功
+2022-09-12 21:03:14,176  - INFO - 用例 【密码大于16位】 执行成功
+2022-09-12 21:03:14,317  - INFO - 用例 【昵称大于10位】 执行成功
+2022-09-12 21:03:14,497  - INFO - 用例 【手机号小于11位】 执行成功
+2022-09-12 21:03:14,688  - INFO - 用例 【手机号大于11位】 执行成功
+2022-09-12 21:03:14,894  - INFO - 用例 【手机号格式不正确】 执行成功
+2022-09-12 21:03:15,097  - INFO - 用例 【手机号已被注册】 执行成功
+2022-09-12 21:03:15,304  - INFO - 用例 【手机号为空】 执行成功
+2022-09-12 21:03:15,508  - INFO - 用例 【密码为空】 执行成功
+2022-09-18 16:36:12,628  - INFO - 用例 【注册成功】 执行成功
+2022-09-18 16:36:12,832  - INFO - 用例 【密码少于8位】 执行成功
+2022-09-18 16:36:13,037  - INFO - 用例 【密码大于16位】 执行成功
+2022-09-18 16:36:13,243  - ERROR - 用例 【昵称大于10位】 执行失败
+2022-09-18 16:36:13,244  - ERROR - '用户昵称长度超过10位' != '无效的手机格式'
+- 用户昵称长度超过10位
++ 无效的手机格式
+Traceback (most recent call last):
+  File "C:\Users\27000\PycharmProjects\2022_4_5\testfun\test_register.py", line 47, in test_register
+    self.assertEqual(expected['msg'], res['msg'])
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2021.1.3\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 1233, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 693, in fail
+    raise self.failureException(msg)
+AssertionError: '用户昵称长度超过10位' != '无效的手机格式'
+- 用户昵称长度超过10位
++ 无效的手机格式
+
+2022-09-18 16:36:13,447  - INFO - 用例 【手机号小于11位】 执行成功
+2022-09-18 16:36:13,652  - INFO - 用例 【手机号大于11位】 执行成功
+2022-09-18 16:36:13,856  - INFO - 用例 【手机号格式不正确】 执行成功
+2022-09-18 16:36:14,023  - INFO - 用例 【手机号已被注册】 执行成功
+2022-09-18 16:36:14,266  - INFO - 用例 【手机号为空】 执行成功
+2022-09-18 16:36:14,472  - INFO - 用例 【密码为空】 执行成功
+2022-09-18 16:37:48,170  - ERROR - 用例 【注册成功】 执行失败
+2022-09-18 16:37:48,170  - ERROR - 0 != 2
+Traceback (most recent call last):
+  File "C:\Users\27000\PycharmProjects\2022_4_5\testfun\test_register.py", line 46, in test_register
+    self.assertEqual(expected['code'], res['code'])
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2021.1.3\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 845, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+2022-09-18 16:37:48,370  - INFO - 用例 【密码少于8位】 执行成功
+2022-09-18 16:37:48,576  - INFO - 用例 【密码大于16位】 执行成功
+2022-09-18 16:37:48,715  - INFO - 用例 【昵称大于10位】 执行成功
+2022-09-18 16:37:48,883  - INFO - 用例 【手机号小于11位】 执行成功
+2022-09-18 16:37:49,088  - INFO - 用例 【手机号大于11位】 执行成功
+2022-09-18 16:37:49,293  - INFO - 用例 【手机号格式不正确】 执行成功
+2022-09-18 16:37:49,407  - INFO - 用例 【手机号已被注册】 执行成功
+2022-09-18 16:37:49,602  - INFO - 用例 【手机号为空】 执行成功
+2022-09-18 16:37:49,758  - INFO - 用例 【密码为空】 执行成功
+2022-09-18 16:38:47,658  - INFO - 用例 【注册成功】 执行成功
+2022-09-18 16:38:47,865  - INFO - 用例 【密码少于8位】 执行成功
+2022-09-18 16:38:48,071  - INFO - 用例 【密码大于16位】 执行成功
+2022-09-18 16:38:48,277  - ERROR - 用例 【昵称大于10位】 执行失败
+2022-09-18 16:38:48,277  - ERROR - '用户昵称长度超过10位' != '无效的手机格式'
+- 用户昵称长度超过10位
++ 无效的手机格式
+Traceback (most recent call last):
+  File "C:\Users\27000\PycharmProjects\2022_4_5\testfun\test_register.py", line 47, in test_register
+    self.assertEqual(expected['msg'], res['msg'])
+  File "C:\Program Files\JetBrains\PyCharm Community Edition 2021.1.3\plugins\python-ce\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 1233, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 693, in fail
+    raise self.failureException(msg)
+AssertionError: '用户昵称长度超过10位' != '无效的手机格式'
+- 用户昵称长度超过10位
++ 无效的手机格式
+
+2022-09-18 16:38:48,417  - INFO - 用例 【手机号小于11位】 执行成功
+2022-09-18 16:38:48,582  - INFO - 用例 【手机号大于11位】 执行成功
+2022-09-18 16:38:48,786  - INFO - 用例 【手机号格式不正确】 执行成功
+2022-09-18 16:38:48,992  - INFO - 用例 【手机号已被注册】 执行成功
+2022-09-18 16:38:49,198  - INFO - 用例 【手机号为空】 执行成功
+2022-09-18 16:38:49,298  - INFO - 用例 【密码为空】 执行成功
+2023-03-09 14:19:47,692  - INFO - 用例【充值金额小于等于0】执行成功
+2023-03-09 14:19:48,011  - ERROR - 用例【充值金额等于0】执行失败
+2023-03-09 14:19:48,011  - ERROR - 2 != 0
+Traceback (most recent call last):
+  File "C:\Users\27000\PycharmProjects\2022_4_5\testfun\test_recharge.py", line 75, in test_recharge
+    self.assertEqual(expected['code'], res['code'])
+  File "C:\Program Files\JetBrains\PyCharm 2022.3.2\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 845, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2023-03-09 14:19:48,306  - INFO - 用例【充值金额大于50W】执行成功
+2023-03-09 14:19:48,613  - ERROR - 用例【充值金额等于50W】执行失败
+2023-03-09 14:19:48,614  - ERROR - 0.0 != 500000
+Traceback (most recent call last):
+  File "C:\Users\27000\PycharmProjects\2022_4_5\testfun\test_recharge.py", line 79, in test_recharge
+    self.assertEqual(float(end_amount - start_amount), body['amount'])
+  File "C:\Program Files\JetBrains\PyCharm 2022.3.2\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 845, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0.0 != 500000
+2023-03-09 14:19:48,922  - ERROR - 用例【充值金额大于0小于50W】执行失败
+2023-03-09 14:19:48,922  - ERROR - 0.0 != 50000
+Traceback (most recent call last):
+  File "C:\Users\27000\PycharmProjects\2022_4_5\testfun\test_recharge.py", line 79, in test_recharge
+    self.assertEqual(float(end_amount - start_amount), body['amount'])
+  File "C:\Program Files\JetBrains\PyCharm 2022.3.2\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 845, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0.0 != 50000
+2023-03-09 14:22:57,030  - INFO - 用例【充值金额小于等于0】执行成功
+2023-03-09 14:22:57,541  - ERROR - 用例【充值金额等于0】执行失败
+2023-03-09 14:22:57,542  - ERROR - 2 != 0
+Traceback (most recent call last):
+  File "C:\Users\27000\PycharmProjects\2022_4_5\testfun\test_recharge.py", line 75, in test_recharge
+    self.assertEqual(expected['code'], res['code'])
+  File "C:\Program Files\JetBrains\PyCharm 2022.3.2\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 845, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2023-03-09 14:22:58,052  - INFO - 用例【充值金额大于50W】执行成功
+2023-03-09 14:22:58,564  - INFO - 用例【充值金额等于50W】执行成功
+2023-03-09 14:22:59,077  - INFO - 用例【充值金额大于0小于50W】执行成功
+2023-03-09 14:23:57,856  - INFO - 用例【充值金额小于等于0】执行成功
+2023-03-09 14:23:58,368  - ERROR - 用例【充值金额等于0】执行失败
+2023-03-09 14:23:58,368  - ERROR - 2 != 0
+Traceback (most recent call last):
+  File "C:\Users\27000\PycharmProjects\2022_4_5\testfun\test_recharge.py", line 75, in test_recharge
+    self.assertEqual(expected['code'], res['code'])
+  File "C:\Program Files\JetBrains\PyCharm 2022.3.2\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 845, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2023-03-09 14:23:58,775  - INFO - 用例【充值金额大于50W】执行成功
+2023-03-09 14:23:59,697  - INFO - 用例【充值金额等于50W】执行成功
+2023-03-09 14:24:00,107  - INFO - 用例【充值金额大于0小于50W】执行成功
+2023-03-09 14:25:05,745  - INFO - 用例【充值金额小于等于0】执行成功
+2023-03-09 14:25:06,259  - ERROR - 用例【充值金额等于0】执行失败
+2023-03-09 14:25:06,259  - ERROR - 2 != 0
+Traceback (most recent call last):
+  File "C:\Users\27000\PycharmProjects\2022_4_5\testfun\test_recharge.py", line 75, in test_recharge
+    self.assertEqual(expected['code'], res['code'])
+  File "C:\Program Files\JetBrains\PyCharm 2022.3.2\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 845, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2023-03-09 14:25:06,769  - INFO - 用例【充值金额大于50W】执行成功
+2023-03-09 14:25:07,281  - INFO - 用例【充值金额等于50W】执行成功
+2023-03-09 14:25:07,793  - INFO - 用例【充值金额大于0小于50W】执行成功
+2023-03-09 14:27:20,917  - INFO - 用例【充值金额小于等于0】执行成功
+2023-03-09 14:27:21,324  - ERROR - 用例【充值金额等于0】执行失败
+2023-03-09 14:27:21,324  - ERROR - 2 != 0
+Traceback (most recent call last):
+  File "C:\Users\27000\PycharmProjects\2022_4_5\testfun\test_recharge.py", line 75, in test_recharge
+    self.assertEqual(expected['code'], res['code'])
+  File "C:\Program Files\JetBrains\PyCharm 2022.3.2\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 845, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2023-03-09 14:27:21,834  - INFO - 用例【充值金额大于50W】执行成功
+2023-03-09 14:27:22,347  - INFO - 用例【充值金额等于50W】执行成功
+2023-03-09 14:27:22,858  - INFO - 用例【充值金额大于0小于50W】执行成功
+2023-03-09 14:34:03,376  - INFO - 用例【充值金额小于等于0】执行成功
+2023-03-09 14:34:03,532  - ERROR - 用例【充值金额等于0】执行失败
+2023-03-09 14:34:03,532  - ERROR - 2 != 0
+Traceback (most recent call last):
+  File "C:\Users\27000\PycharmProjects\2022_4_5\testfun\test_recharge.py", line 75, in test_recharge
+    self.assertEqual(expected['code'], res['code'])
+  File "C:\Program Files\JetBrains\PyCharm 2022.3.2\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 845, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2023-03-09 14:34:03,689  - INFO - 用例【充值金额大于50W】执行成功
+2023-03-09 14:34:03,846  - ERROR - 用例【充值金额等于50W】执行失败
+2023-03-09 14:34:03,846  - ERROR - 0.0 != 500000
+Traceback (most recent call last):
+  File "C:\Users\27000\PycharmProjects\2022_4_5\testfun\test_recharge.py", line 79, in test_recharge
+    self.assertEqual(float(end_amount - start_amount), body['amount'])
+  File "C:\Program Files\JetBrains\PyCharm 2022.3.2\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 845, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0.0 != 500000
+2023-03-09 14:34:03,999  - ERROR - 用例【充值金额大于0小于50W】执行失败
+2023-03-09 14:34:03,999  - ERROR - 0.0 != 50000
+Traceback (most recent call last):
+  File "C:\Users\27000\PycharmProjects\2022_4_5\testfun\test_recharge.py", line 79, in test_recharge
+    self.assertEqual(float(end_amount - start_amount), body['amount'])
+  File "C:\Program Files\JetBrains\PyCharm 2022.3.2\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 845, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0.0 != 50000
+2023-03-09 14:37:07,094  - INFO - 用例【充值金额小于等于0】执行成功
+2023-03-09 14:37:07,261  - ERROR - 用例【充值金额等于0】执行失败
+2023-03-09 14:37:07,261  - ERROR - 2 != 0
+Traceback (most recent call last):
+  File "C:\Users\27000\PycharmProjects\2022_4_5\testfun\test_recharge.py", line 75, in test_recharge
+    self.assertEqual(expected['code'], res['code'])
+  File "C:\Program Files\JetBrains\PyCharm 2022.3.2\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 845, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2023-03-09 14:37:07,419  - INFO - 用例【充值金额大于50W】执行成功
+2023-03-09 14:37:07,577  - ERROR - 用例【充值金额等于50W】执行失败
+2023-03-09 14:37:07,577  - ERROR - 0.0 != 500000
+Traceback (most recent call last):
+  File "C:\Users\27000\PycharmProjects\2022_4_5\testfun\test_recharge.py", line 79, in test_recharge
+    self.assertEqual(float(end_amount - start_amount), body['amount'])
+  File "C:\Program Files\JetBrains\PyCharm 2022.3.2\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 845, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0.0 != 500000
+2023-03-09 14:37:07,749  - ERROR - 用例【充值金额大于0小于50W】执行失败
+2023-03-09 14:37:07,749  - ERROR - 0.0 != 50000
+Traceback (most recent call last):
+  File "C:\Users\27000\PycharmProjects\2022_4_5\testfun\test_recharge.py", line 79, in test_recharge
+    self.assertEqual(float(end_amount - start_amount), body['amount'])
+  File "C:\Program Files\JetBrains\PyCharm 2022.3.2\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 845, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0.0 != 50000
+2023-03-09 15:08:16,049  - INFO - 用例【充值金额小于等于0】执行成功
+2023-03-09 15:08:16,358  - ERROR - 用例【充值金额等于0】执行失败
+2023-03-09 15:08:16,358  - ERROR - 2 != 0
+Traceback (most recent call last):
+  File "C:\Users\27000\PycharmProjects\2022_4_5\testfun\test_recharge.py", line 75, in test_recharge
+    self.assertEqual(expected['code'], res['code'])
+  File "C:\Program Files\JetBrains\PyCharm 2022.3.2\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 845, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2023-03-09 15:08:16,662  - INFO - 用例【充值金额大于50W】执行成功
+2023-03-09 15:08:16,970  - ERROR - 用例【充值金额等于50W】执行失败
+2023-03-09 15:08:16,970  - ERROR - 0.0 != 500000
+Traceback (most recent call last):
+  File "C:\Users\27000\PycharmProjects\2022_4_5\testfun\test_recharge.py", line 79, in test_recharge
+    self.assertEqual(float(end_amount - start_amount), body['amount'])
+  File "C:\Program Files\JetBrains\PyCharm 2022.3.2\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 845, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0.0 != 500000
+2023-03-09 15:08:17,217  - ERROR - 用例【充值金额大于0小于50W】执行失败
+2023-03-09 15:08:17,217  - ERROR - 0.0 != 50000
+Traceback (most recent call last):
+  File "C:\Users\27000\PycharmProjects\2022_4_5\testfun\test_recharge.py", line 79, in test_recharge
+    self.assertEqual(float(end_amount - start_amount), body['amount'])
+  File "C:\Program Files\JetBrains\PyCharm 2022.3.2\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 845, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0.0 != 50000
+2023-03-09 15:09:37,251  - INFO - 用例【充值金额小于等于0】执行成功
+2023-03-09 15:09:37,560  - ERROR - 用例【充值金额等于0】执行失败
+2023-03-09 15:09:37,560  - ERROR - 2 != 0
+Traceback (most recent call last):
+  File "C:\Users\27000\PycharmProjects\2022_4_5\testfun\test_recharge.py", line 75, in test_recharge
+    self.assertEqual(expected['code'], res['code'])
+  File "C:\Program Files\JetBrains\PyCharm 2022.3.2\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 845, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2023-03-09 15:09:38,009  - INFO - 用例【充值金额大于50W】执行成功
+2023-03-09 15:09:38,581  - ERROR - 用例【充值金额等于50W】执行失败
+2023-03-09 15:09:38,581  - ERROR - 0.0 != 500000
+Traceback (most recent call last):
+  File "C:\Users\27000\PycharmProjects\2022_4_5\testfun\test_recharge.py", line 79, in test_recharge
+    self.assertEqual(float(end_amount - start_amount), body['amount'])
+  File "C:\Program Files\JetBrains\PyCharm 2022.3.2\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 845, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0.0 != 500000
+2023-03-09 15:09:38,888  - ERROR - 用例【充值金额大于0小于50W】执行失败
+2023-03-09 15:09:38,889  - ERROR - 0.0 != 50000
+Traceback (most recent call last):
+  File "C:\Users\27000\PycharmProjects\2022_4_5\testfun\test_recharge.py", line 79, in test_recharge
+    self.assertEqual(float(end_amount - start_amount), body['amount'])
+  File "C:\Program Files\JetBrains\PyCharm 2022.3.2\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 845, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0.0 != 50000
+2023-03-09 15:12:05,423  - INFO - 用例【充值金额小于等于0】执行成功
+2023-03-09 15:12:05,833  - ERROR - 用例【充值金额等于0】执行失败
+2023-03-09 15:12:05,834  - ERROR - 2 != 0
+Traceback (most recent call last):
+  File "C:\Users\27000\PycharmProjects\2022_4_5\testfun\test_recharge.py", line 75, in test_recharge
+    self.assertEqual(expected['code'], res['code'])
+  File "C:\Program Files\JetBrains\PyCharm 2022.3.2\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 845, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2023-03-09 15:12:06,284  - INFO - 用例【充值金额大于50W】执行成功
+2023-03-09 15:12:06,856  - ERROR - 用例【充值金额等于50W】执行失败
+2023-03-09 15:12:06,856  - ERROR - 0.0 != 500000
+Traceback (most recent call last):
+  File "C:\Users\27000\PycharmProjects\2022_4_5\testfun\test_recharge.py", line 79, in test_recharge
+    self.assertEqual(float(end_amount - start_amount), body['amount'])
+  File "C:\Program Files\JetBrains\PyCharm 2022.3.2\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 845, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0.0 != 500000
+2023-03-09 15:12:07,165  - ERROR - 用例【充值金额大于0小于50W】执行失败
+2023-03-09 15:12:07,165  - ERROR - 0.0 != 50000
+Traceback (most recent call last):
+  File "C:\Users\27000\PycharmProjects\2022_4_5\testfun\test_recharge.py", line 79, in test_recharge
+    self.assertEqual(float(end_amount - start_amount), body['amount'])
+  File "C:\Program Files\JetBrains\PyCharm 2022.3.2\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 845, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0.0 != 50000
+2023-03-09 15:13:17,720  - INFO - 用例【充值金额小于等于0】执行成功
+2023-03-09 15:13:18,027  - ERROR - 用例【充值金额等于0】执行失败
+2023-03-09 15:13:18,027  - ERROR - 2 != 0
+Traceback (most recent call last):
+  File "C:\Users\27000\PycharmProjects\2022_4_5\testfun\test_recharge.py", line 75, in test_recharge
+    self.assertEqual(expected['code'], res['code'])
+  File "C:\Program Files\JetBrains\PyCharm 2022.3.2\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 845, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2023-03-09 15:13:18,331  - INFO - 用例【充值金额大于50W】执行成功
+2023-03-09 15:13:18,638  - ERROR - 用例【充值金额等于50W】执行失败
+2023-03-09 15:13:18,638  - ERROR - 0.0 != 500000
+Traceback (most recent call last):
+  File "C:\Users\27000\PycharmProjects\2022_4_5\testfun\test_recharge.py", line 79, in test_recharge
+    self.assertEqual(float(end_amount - start_amount), body['amount'])
+  File "C:\Program Files\JetBrains\PyCharm 2022.3.2\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 845, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0.0 != 500000
+2023-03-09 15:13:18,947  - ERROR - 用例【充值金额大于0小于50W】执行失败
+2023-03-09 15:13:18,947  - ERROR - 0.0 != 50000
+Traceback (most recent call last):
+  File "C:\Users\27000\PycharmProjects\2022_4_5\testfun\test_recharge.py", line 79, in test_recharge
+    self.assertEqual(float(end_amount - start_amount), body['amount'])
+  File "C:\Program Files\JetBrains\PyCharm 2022.3.2\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 845, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0.0 != 50000
+2023-03-09 15:13:53,454  - INFO - 用例【充值金额小于等于0】执行成功
+2023-03-09 15:13:53,762  - ERROR - 用例【充值金额等于0】执行失败
+2023-03-09 15:13:53,763  - ERROR - 2 != 0
+Traceback (most recent call last):
+  File "C:\Users\27000\PycharmProjects\2022_4_5\testfun\test_recharge.py", line 75, in test_recharge
+    self.assertEqual(expected['code'], res['code'])
+  File "C:\Program Files\JetBrains\PyCharm 2022.3.2\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 845, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2023-03-09 15:13:54,068  - INFO - 用例【充值金额大于50W】执行成功
+2023-03-09 15:13:54,382  - ERROR - 用例【充值金额等于50W】执行失败
+2023-03-09 15:13:54,382  - ERROR - 0.0 != 500000
+Traceback (most recent call last):
+  File "C:\Users\27000\PycharmProjects\2022_4_5\testfun\test_recharge.py", line 79, in test_recharge
+    self.assertEqual(float(end_amount - start_amount), body['amount'])
+  File "C:\Program Files\JetBrains\PyCharm 2022.3.2\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 845, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0.0 != 500000
+2023-03-09 15:13:54,683  - ERROR - 用例【充值金额大于0小于50W】执行失败
+2023-03-09 15:13:54,683  - ERROR - 0.0 != 50000
+Traceback (most recent call last):
+  File "C:\Users\27000\PycharmProjects\2022_4_5\testfun\test_recharge.py", line 79, in test_recharge
+    self.assertEqual(float(end_amount - start_amount), body['amount'])
+  File "C:\Program Files\JetBrains\PyCharm 2022.3.2\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 845, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0.0 != 50000
+2023-03-09 15:19:30,656  - INFO - 用例【充值金额小于等于0】执行成功
+2023-03-09 15:19:30,965  - ERROR - 用例【充值金额等于0】执行失败
+2023-03-09 15:19:30,965  - ERROR - 2 != 0
+Traceback (most recent call last):
+  File "C:\Users\27000\PycharmProjects\2022_4_5\testfun\test_recharge.py", line 75, in test_recharge
+    self.assertEqual(expected['code'], res['code'])
+  File "C:\Program Files\JetBrains\PyCharm 2022.3.2\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 845, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2023-03-09 15:19:31,272  - INFO - 用例【充值金额大于50W】执行成功
+2023-03-09 15:19:31,578  - ERROR - 用例【充值金额等于50W】执行失败
+2023-03-09 15:19:31,578  - ERROR - 0.0 != 500000
+Traceback (most recent call last):
+  File "C:\Users\27000\PycharmProjects\2022_4_5\testfun\test_recharge.py", line 79, in test_recharge
+    self.assertEqual(float(end_amount - start_amount), body['amount'])
+  File "C:\Program Files\JetBrains\PyCharm 2022.3.2\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 845, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0.0 != 500000
+2023-03-09 15:19:31,885  - ERROR - 用例【充值金额大于0小于50W】执行失败
+2023-03-09 15:19:31,885  - ERROR - 0.0 != 50000
+Traceback (most recent call last):
+  File "C:\Users\27000\PycharmProjects\2022_4_5\testfun\test_recharge.py", line 79, in test_recharge
+    self.assertEqual(float(end_amount - start_amount), body['amount'])
+  File "C:\Program Files\JetBrains\PyCharm 2022.3.2\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 845, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0.0 != 50000
+2023-03-09 15:25:48,203  - INFO - 用例【充值金额小于等于0】执行成功
+2023-03-09 15:25:48,515  - ERROR - 用例【充值金额等于0】执行失败
+2023-03-09 15:25:48,515  - ERROR - 2 != 0
+Traceback (most recent call last):
+  File "C:\Users\27000\PycharmProjects\2022_4_5\testfun\test_recharge.py", line 75, in test_recharge
+    self.assertEqual(expected['code'], res['code'])
+  File "C:\Program Files\JetBrains\PyCharm 2022.3.2\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 845, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2023-03-09 15:25:48,819  - INFO - 用例【充值金额大于50W】执行成功
+2023-03-09 15:25:49,125  - ERROR - 用例【充值金额等于50W】执行失败
+2023-03-09 15:25:49,125  - ERROR - 0.0 != 500000
+Traceback (most recent call last):
+  File "C:\Users\27000\PycharmProjects\2022_4_5\testfun\test_recharge.py", line 79, in test_recharge
+    self.assertEqual(float(end_amount - start_amount), body['amount'])
+  File "C:\Program Files\JetBrains\PyCharm 2022.3.2\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 845, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0.0 != 500000
+2023-03-09 15:25:49,433  - ERROR - 用例【充值金额大于0小于50W】执行失败
+2023-03-09 15:25:49,433  - ERROR - 0.0 != 50000
+Traceback (most recent call last):
+  File "C:\Users\27000\PycharmProjects\2022_4_5\testfun\test_recharge.py", line 79, in test_recharge
+    self.assertEqual(float(end_amount - start_amount), body['amount'])
+  File "C:\Program Files\JetBrains\PyCharm 2022.3.2\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 845, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0.0 != 50000
+2023-03-09 15:26:31,109  - INFO - 用例【充值金额小于等于0】执行成功
+2023-03-09 15:26:31,419  - ERROR - 用例【充值金额等于0】执行失败
+2023-03-09 15:26:31,420  - ERROR - 2 != 0
+Traceback (most recent call last):
+  File "C:\Users\27000\PycharmProjects\2022_4_5\testfun\test_recharge.py", line 75, in test_recharge
+    self.assertEqual(expected['code'], res['code'])
+  File "C:\Program Files\JetBrains\PyCharm 2022.3.2\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 845, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2023-03-09 15:26:31,723  - INFO - 用例【充值金额大于50W】执行成功
+2023-03-09 15:26:32,032  - ERROR - 用例【充值金额等于50W】执行失败
+2023-03-09 15:26:32,033  - ERROR - 0.0 != 500000
+Traceback (most recent call last):
+  File "C:\Users\27000\PycharmProjects\2022_4_5\testfun\test_recharge.py", line 79, in test_recharge
+    self.assertEqual(float(end_amount - start_amount), body['amount'])
+  File "C:\Program Files\JetBrains\PyCharm 2022.3.2\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 845, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0.0 != 500000
+2023-03-09 15:26:32,340  - ERROR - 用例【充值金额大于0小于50W】执行失败
+2023-03-09 15:26:32,340  - ERROR - 0.0 != 50000
+Traceback (most recent call last):
+  File "C:\Users\27000\PycharmProjects\2022_4_5\testfun\test_recharge.py", line 79, in test_recharge
+    self.assertEqual(float(end_amount - start_amount), body['amount'])
+  File "C:\Program Files\JetBrains\PyCharm 2022.3.2\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 845, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0.0 != 50000
+2023-03-09 15:26:49,336  - INFO - 用例【充值金额小于等于0】执行成功
+2023-03-09 15:26:49,585  - ERROR - 用例【充值金额等于0】执行失败
+2023-03-09 15:26:49,585  - ERROR - 2 != 0
+Traceback (most recent call last):
+  File "C:\Users\27000\PycharmProjects\2022_4_5\testfun\test_recharge.py", line 75, in test_recharge
+    self.assertEqual(expected['code'], res['code'])
+  File "C:\Program Files\JetBrains\PyCharm 2022.3.2\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 845, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2023-03-09 15:26:49,950  - INFO - 用例【充值金额大于50W】执行成功
+2023-03-09 15:26:50,463  - ERROR - 用例【充值金额等于50W】执行失败
+2023-03-09 15:26:50,463  - ERROR - 0.0 != 500000
+Traceback (most recent call last):
+  File "C:\Users\27000\PycharmProjects\2022_4_5\testfun\test_recharge.py", line 79, in test_recharge
+    self.assertEqual(float(end_amount - start_amount), body['amount'])
+  File "C:\Program Files\JetBrains\PyCharm 2022.3.2\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 845, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0.0 != 500000
+2023-03-09 15:26:50,770  - ERROR - 用例【充值金额大于0小于50W】执行失败
+2023-03-09 15:26:50,770  - ERROR - 0.0 != 50000
+Traceback (most recent call last):
+  File "C:\Users\27000\PycharmProjects\2022_4_5\testfun\test_recharge.py", line 79, in test_recharge
+    self.assertEqual(float(end_amount - start_amount), body['amount'])
+  File "C:\Program Files\JetBrains\PyCharm 2022.3.2\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 845, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0.0 != 50000
+2023-03-09 16:14:29,050  - INFO - 用例【充值金额小于等于0】执行成功
+2023-03-09 16:14:29,359  - ERROR - 用例【充值金额等于0】执行失败
+2023-03-09 16:14:29,360  - ERROR - 2 != 0
+Traceback (most recent call last):
+  File "C:\Users\27000\PycharmProjects\2022_4_5\testfun\test_recharge.py", line 75, in test_recharge
+    self.assertEqual(expected['code'], res['code'])
+  File "C:\Program Files\JetBrains\PyCharm 2022.3.2\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 845, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2023-03-09 16:14:29,664  - INFO - 用例【充值金额大于50W】执行成功
+2023-03-09 16:14:30,119  - ERROR - 用例【充值金额等于50W】执行失败
+2023-03-09 16:14:30,119  - ERROR - 0.0 != 500000
+Traceback (most recent call last):
+  File "C:\Users\27000\PycharmProjects\2022_4_5\testfun\test_recharge.py", line 79, in test_recharge
+    self.assertEqual(float(end_amount - start_amount), body['amount'])
+  File "C:\Program Files\JetBrains\PyCharm 2022.3.2\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 845, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0.0 != 500000
+2023-03-09 16:14:30,689  - ERROR - 用例【充值金额大于0小于50W】执行失败
+2023-03-09 16:14:30,689  - ERROR - 0.0 != 50000
+Traceback (most recent call last):
+  File "C:\Users\27000\PycharmProjects\2022_4_5\testfun\test_recharge.py", line 79, in test_recharge
+    self.assertEqual(float(end_amount - start_amount), body['amount'])
+  File "C:\Program Files\JetBrains\PyCharm 2022.3.2\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 845, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0.0 != 50000
+2023-03-09 16:14:41,338  - INFO - 用例【充值金额小于等于0】执行成功
+2023-03-09 16:14:41,647  - ERROR - 用例【充值金额等于0】执行失败
+2023-03-09 16:14:41,647  - ERROR - 2 != 0
+Traceback (most recent call last):
+  File "C:\Users\27000\PycharmProjects\2022_4_5\testfun\test_recharge.py", line 75, in test_recharge
+    self.assertEqual(expected['code'], res['code'])
+  File "C:\Program Files\JetBrains\PyCharm 2022.3.2\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 845, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2023-03-09 16:14:41,952  - INFO - 用例【充值金额大于50W】执行成功
+2023-03-09 16:14:42,259  - ERROR - 用例【充值金额等于50W】执行失败
+2023-03-09 16:14:42,259  - ERROR - 0.0 != 500000
+Traceback (most recent call last):
+  File "C:\Users\27000\PycharmProjects\2022_4_5\testfun\test_recharge.py", line 79, in test_recharge
+    self.assertEqual(float(end_amount - start_amount), body['amount'])
+  File "C:\Program Files\JetBrains\PyCharm 2022.3.2\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 845, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0.0 != 500000
+2023-03-09 16:14:42,569  - ERROR - 用例【充值金额大于0小于50W】执行失败
+2023-03-09 16:14:42,570  - ERROR - 0.0 != 50000
+Traceback (most recent call last):
+  File "C:\Users\27000\PycharmProjects\2022_4_5\testfun\test_recharge.py", line 79, in test_recharge
+    self.assertEqual(float(end_amount - start_amount), body['amount'])
+  File "C:\Program Files\JetBrains\PyCharm 2022.3.2\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 845, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0.0 != 50000
+2023-03-09 16:15:07,859  - INFO - 用例【充值金额小于等于0】执行成功
+2023-03-09 16:15:08,372  - ERROR - 用例【充值金额等于0】执行失败
+2023-03-09 16:15:08,373  - ERROR - 2 != 0
+Traceback (most recent call last):
+  File "C:\Users\27000\PycharmProjects\2022_4_5\testfun\test_recharge.py", line 75, in test_recharge
+    self.assertEqual(expected['code'], res['code'])
+  File "C:\Program Files\JetBrains\PyCharm 2022.3.2\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python37\lib\unittest\case.py", line 845, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2023-03-09 16:15:08,884  - INFO - 用例【充值金额大于50W】执行成功
+2023-03-09 16:15:09,396  - INFO - 用例【充值金额等于50W】执行成功
+2023-03-09 16:15:09,907  - INFO - 用例【充值金额大于0小于50W】执行成功
+2023-03-09 17:26:54,990  - INFO - 用例【登录成功】执行成功
+2023-03-09 17:26:55,159  - INFO - 用例【密码为空】执行成功
+2023-03-09 17:26:55,337  - INFO - 用例【账号为空】执行成功
+2023-03-09 17:26:55,502  - INFO - 用例【密码账号都为空】执行成功
+2023-03-09 17:26:55,710  - INFO - 用例【密码错误】执行成功
+2023-03-09 17:26:55,810  - INFO - 用例【账号错误】执行成功
+2023-03-09 17:26:56,337  - INFO - 用例【充值金额小于等于0】执行成功
+2023-03-09 17:26:56,730  - ERROR - 用例【充值金额等于0】执行失败
+2023-03-09 17:26:56,731  - ERROR - 2 != 0
+Traceback (most recent call last):
+  File "C:\Users\27000\PycharmProjects\2022_4_5\testfun\test_recharge.py", line 75, in test_recharge
+    self.assertEqual(expected['code'], res['code'])
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python311\Lib\unittest\case.py", line 873, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python311\Lib\unittest\case.py", line 866, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2023-03-09 17:26:56,970  - INFO - 用例【充值金额大于50W】执行成功
+2023-03-09 17:26:57,192  - INFO - 用例【充值金额等于50W】执行成功
+2023-03-09 17:26:57,416  - INFO - 用例【充值金额大于0小于50W】执行成功
+2023-03-09 17:26:57,502  - INFO - 用例 【注册成功】 执行成功
+2023-03-09 17:26:57,575  - INFO - 用例 【密码少于8位】 执行成功
+2023-03-09 17:26:57,647  - INFO - 用例 【密码大于16位】 执行成功
+2023-03-09 17:26:57,719  - ERROR - 用例 【昵称大于10位】 执行失败
+2023-03-09 17:26:57,719  - ERROR - '用户昵称长度超过10位' != '无效的手机格式'
+- 用户昵称长度超过10位
++ 无效的手机格式
+Traceback (most recent call last):
+  File "C:\Users\27000\PycharmProjects\2022_4_5\testfun\test_register.py", line 47, in test_register
+    self.assertEqual(expected['msg'], res['msg'])
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python311\Lib\unittest\case.py", line 873, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python311\Lib\unittest\case.py", line 1253, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python311\Lib\unittest\case.py", line 703, in fail
+    raise self.failureException(msg)
+AssertionError: '用户昵称长度超过10位' != '无效的手机格式'
+- 用户昵称长度超过10位
++ 无效的手机格式
+
+2023-03-09 17:26:57,815  - INFO - 用例 【手机号小于11位】 执行成功
+2023-03-09 17:26:57,887  - INFO - 用例 【手机号大于11位】 执行成功
+2023-03-09 17:26:57,959  - INFO - 用例 【手机号格式不正确】 执行成功
+2023-03-09 17:26:58,041  - ERROR - 用例 【手机号已被注册】 执行失败
+2023-03-09 17:26:58,041  - ERROR - 2 != 0
+Traceback (most recent call last):
+  File "C:\Users\27000\PycharmProjects\2022_4_5\testfun\test_register.py", line 46, in test_register
+    self.assertEqual(expected['code'], res['code'])
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python311\Lib\unittest\case.py", line 873, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python311\Lib\unittest\case.py", line 866, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2023-03-09 17:26:58,116  - INFO - 用例 【手机号为空】 执行成功
+2023-03-09 17:26:58,192  - INFO - 用例 【密码为空】 执行成功
+2023-03-19 14:16:14,411  - INFO - 用例【充值金额小于等于0】执行成功
+2023-03-19 14:16:14,832  - ERROR - 用例【充值金额等于0】执行失败
+2023-03-19 14:16:14,833  - ERROR - 2 != 0
+Traceback (most recent call last):
+  File "C:\Users\27000\PycharmProjects\2022_4_5\testfun\test_recharge.py", line 75, in test_recharge
+    self.assertEqual(expected['code'], res['code'])
+  File "C:\Program Files\JetBrains\PyCharm 2022.3.2\plugins\python\helpers\pycharm\teamcity\diff_tools.py", line 33, in _patched_equals
+    old(self, first, second, msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python311\Lib\unittest\case.py", line 873, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "C:\Users\27000\AppData\Local\Programs\Python\Python311\Lib\unittest\case.py", line 866, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 2 != 0
+2023-03-19 14:16:15,283  - INFO - 用例【充值金额大于50W】执行成功
+2023-03-19 14:16:15,688  - INFO - 用例【充值金额等于50W】执行成功
+2023-03-19 14:16:15,964  - INFO - 用例【充值金额大于0小于50W】执行成功
+2023-03-19 14:17:14,221  - INFO - 用例【添加成功】执行成功
